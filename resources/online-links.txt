@@ -1,0 +1,44 @@
+Change the sample rate of the mac microphone:
+https://smallbusiness.chron.com/macbook-pro-change-sample-rate-49804.html
+
+Simple description of fast fourier transform:
+https://stackoverflow.com/questions/11553047/frequency-pitch-detection-for-dummies
+
+Detailed but clear description of various pitch detection methods:
+https://ccrma.stanford.edu/~pdelac/154/m154paper.htm
+
+FFT Arduino Implementation:
+https://www.norwegiancreations.com/2017/08/what-is-fft-and-how-can-you-implement-it-on-an-arduino/
+
+Arduino FFT Library Open Music Labs:
+http://wiki.openmusiclabs.com/wiki/ArduinoFFT?fbclid=IwAR12wOt6WlJBsUAkj9267MeNqQpH04uFSsYXELU9CarA5yMFsfLsu3F4k1s
+
+Good MIDI Tutorial:
+http://www.music-software-development.com/midi-tutorial.html
+
+What is Arduino?
+https://www.arduino.cc/en/Guide/Introduction
+
+How FFT works:
+https://stackoverflow.com/questions/11553047/frequency-pitch-detection-for-dummies
+
+Frequency estimation methods:
+https://gist.github.com/endolith/255291
+
+Other person's example:
+https://www.quora.com/I-want-to-sing-notes-into-my-computer-mic-and-have-a-website-program-tell-me-what-note-Im-singing-Is-there-any-such-thing
+
+Microphone to get:
+https://makeradvisor.com/tools/microphone-sound-sensor-ky-038/
+
+Guide for microphone sound sensor:
+https://randomnerdtutorials.com/guide-for-microphone-sound-sensor-with-arduino/
+
+Arduino FHT Library documentation:
+http://wiki.openmusiclabs.com/wiki/FHTFunctions
+
+PyAudio Documentation (works for Mac and Linux):
+http://people.csail.mit.edu/hubert/pyaudio/docs/#pyaudio-documentation
+
+#PyAudio Explanation
+http://slides.com/jeancruypenynck/introduction-to-pyaudio/embed
