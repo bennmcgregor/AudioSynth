@@ -3,10 +3,7 @@ import pyaudio
 import analyse
 import math
 import processor
-import serial
 import time
-
-ser = serial.Serial('/dev/ttyACM0', 9600)
 
 class RecordObject: 
     isRecording = False
@@ -44,9 +41,7 @@ class RecordObject:
                     delta = currentTime - oldTime
                     oldTime = currentTime
                     print("Midi note: " + str(pitch) + " Delta: " + str(delta))#" Loudness: " + str(analyse.loudness(samps)) + " dB")
-                    ser.write(str.encode(str(pitch)))
             stream.close()
-            ser.write(b'0')
 
     def endRecord(self):
         self.isRecording = False
